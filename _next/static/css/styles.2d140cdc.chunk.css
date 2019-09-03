@@ -1,15 +1,3 @@
-@font-face {
-  font-family: "Sansation Bold";
-  src: url("/fonts/Sansation_Bold.ttf"); }
-
-@font-face {
-  font-family: "Sansation Regular";
-  src: url("/fonts/Sansation_Regular.ttf"); }
-
-@font-face {
-  font-family: "Sansation Light";
-  src: url("/fonts/Sansation_Regular.ttf"); }
-
 body {
   overflow-x: hidden;
   width: 100vw;
