@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Sansation Bold";
+  src: url("/p1-website-static/fonts/Sansation_Bold.ttf"); }
+
+@font-face {
+  font-family: "Sansation Regular";
+  src: url("/p1-website-static/fonts/Sansation_Regular.ttf"); }
+
+@font-face {
+  font-family: "Sansation Light";
+  src: url("/p1-website-static/fonts/Sansation_Regular.ttf"); }
+
 body {
   overflow-x: hidden;
   width: 100vw;
