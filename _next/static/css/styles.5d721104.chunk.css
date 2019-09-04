@@ -10,6 +10,10 @@
   font-family: "Sansation Light";
   src: url("/static/fonts/Sansation_Regular.ttf"); }
 
+a {
+  text-decoration: none;
+  color: white; }
+
 body {
   overflow-x: hidden;
   width: 100vw;
