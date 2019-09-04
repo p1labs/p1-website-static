@@ -146,77 +146,78 @@ body {
   @media (max-width: 1024px) {
     .team .profile-container {
       height: 35vh; } }
-  .team .profile-container .profile-card {
-    flex: 0 1 45%;
-    display: flex;
-    margin-bottom: 3vh; }
-    .team .profile-container .profile-card.active {
-      z-index: 1; }
+
+.team .profile-card {
+  flex: 0 1 45%;
+  display: flex;
+  margin-bottom: 3vh; }
+  .team .profile-card.active {
+    z-index: 1; }
+  @media (max-width: 1024px) {
+    .team .profile-card {
+      position: absolute;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 98vw;
+      height: 35vh;
+      left: 0;
+      right: 0;
+      margin: auto;
+      z-index: 0;
+      display: none; }
+      .team .profile-card.active {
+        z-index: 1 !important;
+        display: block; } }
+  .team .profile-card .avatar {
+    width: 6vw;
+    height: 6vw;
+    margin-right: 10px; }
     @media (max-width: 1024px) {
-      .team .profile-container .profile-card {
-        position: absolute;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        width: 98vw;
-        height: 35vh;
-        left: 0;
-        right: 0;
+      .team .profile-card .avatar {
+        width: 30vw;
+        height: 30vw;
         margin: auto;
-        z-index: 0;
-        display: none; }
-        .team .profile-container .profile-card.active {
-          z-index: 1 !important;
-          display: block; } }
-    .team .profile-container .profile-card .avatar {
-      width: 6vw;
-      height: 6vw;
-      margin-right: 10px; }
-      @media (max-width: 1024px) {
-        .team .profile-container .profile-card .avatar {
-          width: 30vw;
-          height: 30vw;
-          margin: auto;
-          margin-bottom: 5vh; } }
-      .team .profile-container .profile-card .avatar img {
-        position: relative;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        border-radius: 50%;
-        -webkit-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0, 0, 0, 0.2);
-        -moz-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0, 0, 0, 0.2);
-        box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0, 0, 0, 0.2); }
-    .team .profile-container .profile-card .words .title {
-      display: flex;
-      margin-bottom: 1vh; }
-      @media (max-width: 1024px) {
-        .team .profile-container .profile-card .words .title {
-          display: flex;
-          justify-content: center;
-          margin-bottom: 2vh; } }
-      .team .profile-container .profile-card .words .title .name {
-        color: white;
-        font-size: 16px;
-        font-family: 'Sansation Bold'; }
-        .team .profile-container .profile-card .words .title .name span {
-          margin-left: 5px;
-          font-family: 'Sansation Regular'; }
-      .team .profile-container .profile-card .words .title .social {
-        margin-left: 5px; }
-        .team .profile-container .profile-card .words .title .social .twitter {
-          height: 17px;
-          width: 17px; }
-        .team .profile-container .profile-card .words .title .social .linkedin {
-          height: 17px;
-          width: 17px; }
-    .team .profile-container .profile-card .words .desc {
+        margin-bottom: 5vh; } }
+    .team .profile-card .avatar img {
+      position: relative;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      -webkit-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0, 0, 0, 0.2); }
+  .team .profile-card .words .title {
+    display: flex;
+    margin-bottom: 1vh; }
+    @media (max-width: 1024px) {
+      .team .profile-card .words .title {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2vh; } }
+    .team .profile-card .words .title .name {
       color: white;
-      font-size: 12px;
-      font-family: 'Sansation Regular'; }
-      @media (max-width: 1024px) {
-        .team .profile-container .profile-card .words .desc {
-          max-width: 65vw;
-          margin: auto; } }
+      font-size: 16px;
+      font-family: 'Sansation Bold'; }
+      .team .profile-card .words .title .name span {
+        margin-left: 5px;
+        font-family: 'Sansation Regular'; }
+    .team .profile-card .words .title .social {
+      margin-left: 5px; }
+      .team .profile-card .words .title .social .twitter {
+        height: 17px;
+        width: 17px; }
+      .team .profile-card .words .title .social .linkedin {
+        height: 17px;
+        width: 17px; }
+  .team .profile-card .words .desc {
+    color: white;
+    font-size: 12px;
+    font-family: 'Sansation Regular'; }
+    @media (max-width: 1024px) {
+      .team .profile-card .words .desc {
+        max-width: 65vw;
+        margin: auto; } }
 
 .team .slider-control {
   display: none; }
@@ -254,6 +255,27 @@ body {
     @media (min-width: 1024px) {
       .team .header-container {
         margin-bottom: 10vh; } }
+  .team .subtitle {
+    margin-bottom: 5vh; }
+    @media (max-width: 1024px) {
+      .team .subtitle {
+        margin-top: 10vh;
+        margin-bottom: 2vh; } }
+  .team .advisors-container {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    transform: translateX(-10vw); }
+    @media (max-width: 1024px) {
+      .team .advisors-container {
+        flex-direction: column;
+        justify-content: center;
+        height: fit-content;
+        transform: translateX(0vw); } }
+    .team .advisors-container .profile-card {
+      position: relative;
+      display: block;
+      flex: 1; }
 
 .updates {
   background-image: url(/_next/static/images/updates-bg-6b383153f1e8413f2ff8b4fb69552d68.svg);
@@ -280,7 +302,7 @@ body {
       .updates .demo {
         width: 90%;
         margin: auto;
-        height: 25vh; } }
+        height: auto; } }
     .updates .demo img {
       height: auto;
       width: 100%; }
