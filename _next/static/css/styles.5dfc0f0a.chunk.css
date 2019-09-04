@@ -223,7 +223,7 @@ body {
   display: none; }
 
 .hero {
-  background-image: url(/p1-website-static/_next/static/images/hero-bg-0d1cd73c1a380eadb5345368b9da76d8.svg);
+  background-image: url(/_next/static/images/hero-bg-0d1cd73c1a380eadb5345368b9da76d8.svg);
   background-size: cover; }
   .hero .header-container {
     margin-top: 0; }
@@ -231,7 +231,7 @@ body {
     margin-top: 5vh; }
 
 .team {
-  background-image: url(/p1-website-static/_next/static/images/team-bg-50a8c11f6634f8ee941e1aaa4bb82392.svg);
+  background-image: url(/_next/static/images/team-bg-50a8c11f6634f8ee941e1aaa4bb82392.svg);
   background-size: cover; }
   .team .header-container {
     justify-content: center; }
@@ -240,7 +240,7 @@ body {
         margin-bottom: 10vh; } }
 
 .updates {
-  background-image: url(/p1-website-static/_next/static/images/updates-bg-6b383153f1e8413f2ff8b4fb69552d68.svg);
+  background-image: url(/_next/static/images/updates-bg-6b383153f1e8413f2ff8b4fb69552d68.svg);
   background-size: cover; }
   .updates .header-container {
     justify-content: center; }
@@ -270,7 +270,7 @@ body {
       width: 100%; }
 
 .technology {
-  background-image: url(/p1-website-static/_next/static/images/tech-bg-57c1a473708e7993f50c9d572c52c72e.svg);
+  background-image: url(/_next/static/images/tech-bg-57c1a473708e7993f50c9d572c52c72e.svg);
   background-size: cover; }
   .technology .infographics {
     height: 30vh;
@@ -427,7 +427,7 @@ body {
           text-align: center; } }
 
 .economics {
-  background-image: url(/p1-website-static/_next/static/images/tech-bg-57c1a473708e7993f50c9d572c52c72e.svg);
+  background-image: url(/_next/static/images/tech-bg-57c1a473708e7993f50c9d572c52c72e.svg);
   background-size: cover; }
   .economics .header-container {
     margin-bottom: 6vh; }
@@ -501,7 +501,7 @@ body {
           order: 2; } }
 
 .alphas {
-  background-image: url(/p1-website-static/_next/static/images/alpha-bg-1c0ddbd491173ef8ad0c51ac55ea7823.svg);
+  background-image: url(/_next/static/images/alpha-bg-1c0ddbd491173ef8ad0c51ac55ea7823.svg);
   background-size: cover;
   padding-bottom: 20vh; }
   .alphas .img {
